@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            li{color:darkmagenta}
+            #idsel{color:blue}
+            .classsel{color:green}
+            h4{
+                color:darkslateblue;
+                font:bold
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>html</li>
+            <li id="idsel" class="classsel" style="color:powderblue">css</li>
+            <li>javascript</li>
+        </ul>
+        포괄적인->구체적인<br/>
+        구체적일 수록 cascading 우선순위가 높다.<br/>
+        <br/>
+        cascading 우선순위<br/>
+        <ol>
+            <li>style attribute</li>
+            <li>id selector</li>
+            <li>class selector</li>
+            <li>tag selector</li>
+        </ol>
+        <h4>하지만 !important 라는 키워드를 적는 순간 최우선순위로 적용된다.</h1>
+    </body>
+</html>
